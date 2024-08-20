@@ -7,6 +7,9 @@ function submeter() {
     if(!validateNome(nome) || !validateCPF(cpf) || !validateSenha(senha)){
         return;
     }
+    
+    // Redirect to cars.html
+    window.location.href = "cars.html";
     console.log(nome);
     console.log(cpf);
     console.log(senha);
